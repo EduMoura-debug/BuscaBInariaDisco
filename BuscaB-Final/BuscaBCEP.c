@@ -55,12 +55,12 @@ int main(int argc, char**argv)
 		}else if(strncmp(argv[1],e.cep,8) > 0){
 
             primeiro = meio + 1;
-			printf("P \n",primeiro);
+			
 
         }else if(strncmp(argv[1],e.cep,8) < 0 ){
             
             ultimo = meio - 1;
-			printf("U \n", ultimo);
+			
 
         }
 		
